@@ -45,7 +45,7 @@ class AlertDialog {
                     //TODO: 修正する
                     self.text = textFieldOnAlert.text!
                     completion()
-                }
+        }
         
         let cancelAction = UIAlertAction(title: "キャンセル", style: .cancel)
         
