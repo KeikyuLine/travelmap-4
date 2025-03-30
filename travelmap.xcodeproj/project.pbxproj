@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F001CF632CCE1C3800A3D4AC /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001CF622CCE1C3800A3D4AC /* ScheduleViewController.swift */; };
+		F07E9D9B2D10302600EF9A48 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07E9D9A2D10302600EF9A48 /* TableViewController.swift */; };
 		F09ED6932C5F205400D80CA2 /* VacationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09ED6922C5F205400D80CA2 /* VacationModel.swift */; };
 		F09ED6952C5F23CF00D80CA2 /* SwiftDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09ED6942C5F23CE00D80CA2 /* SwiftDataService.swift */; };
 		F09ED6992C5F452D00D80CA2 /* AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09ED6982C5F452D00D80CA2 /* AlertDialog.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		F001CF622CCE1C3800A3D4AC /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		F07E9D9A2D10302600EF9A48 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		F09ED6922C5F205400D80CA2 /* VacationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationModel.swift; sourceTree = "<group>"; };
 		F09ED6942C5F23CE00D80CA2 /* SwiftDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataService.swift; sourceTree = "<group>"; };
 		F09ED6982C5F452D00D80CA2 /* AlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDialog.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				F0D34B9C2C156E44001EFBB2 /* ViewController.swift */,
 				F09ED6982C5F452D00D80CA2 /* AlertDialog.swift */,
 				F0A3C25F2C4CD09100FAA97D /* AddViewController.swift */,
+				F07E9D9A2D10302600EF9A48 /* TableViewController.swift */,
 				F09ED6922C5F205400D80CA2 /* VacationModel.swift */,
 				F09ED6942C5F23CE00D80CA2 /* SwiftDataService.swift */,
 				F0D34B9E2C156E44001EFBB2 /* Main.storyboard */,
@@ -164,6 +167,7 @@
 				F09ED6952C5F23CF00D80CA2 /* SwiftDataService.swift in Sources */,
 				F09ED6992C5F452D00D80CA2 /* AlertDialog.swift in Sources */,
 				F0A3C2602C4CD09100FAA97D /* AddViewController.swift in Sources */,
+				F07E9D9B2D10302600EF9A48 /* TableViewController.swift in Sources */,
 				F0D34B9B2C156E44001EFBB2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,26 +319,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TWCF733TQZ;
+				DEVELOPMENT_TEAM = B2V2QD335Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = travelmap/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "with go";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "常に位置情報を取得します";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "必要に応じて位置情報を取得します。";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "現在地を基に最適なルートを案内します";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "現在地を基に最適なルートを案内します";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.saito.onji.travelmap;
+				PRODUCT_BUNDLE_IDENTIFIER = app.saito.onji.travelmap.release;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,26 +358,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TWCF733TQZ;
+				DEVELOPMENT_TEAM = B2V2QD335Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = travelmap/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "with go";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "常に位置情報を取得します";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "必要に応じて位置情報を取得します。";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "現在地を基に最適なルートを案内します";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "現在地を基に最適なルートを案内します";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.saito.onji.travelmap;
+				PRODUCT_BUNDLE_IDENTIFIER = app.saito.onji.travelmap.release;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

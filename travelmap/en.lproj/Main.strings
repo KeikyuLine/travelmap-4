@@ -1,0 +1,45 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1WM-NF-3wK"; */
+"1WM-NF-3wK.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "20f-qM-fTs"; */
+"20f-qM-fTs.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "場所が入る"; ObjectID = "8x5-Xb-Z81"; */
+"8x5-Xb-Z81.text" = "場所が入る";
+
+/* Class = "UILabel"; text = "詳細"; ObjectID = "AgI-zD-WA4"; */
+"AgI-zD-WA4.text" = "詳細";
+
+/* Class = "UILabel"; text = "stay"; ObjectID = "Dc7-as-Va3"; */
+"Dc7-as-Va3.text" = "stay";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ESb-U8-RuA"; */
+"ESb-U8-RuA.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "web"; ObjectID = "FfL-Z2-hqn"; */
+"FfL-Z2-hqn.text" = "web";
+
+/* Class = "UILabel"; text = "min"; ObjectID = "G8g-Yx-fDk"; */
+"G8g-Yx-fDk.text" = "min";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jlG-fg-kLg"; */
+"jlG-fg-kLg.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qyB-Ch-BOO"; */
+"qyB-Ch-BOO.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "メモ"; ObjectID = "uGx-At-Kez"; */
+"uGx-At-Kez.text" = "メモ";
+
+/* Class = "UIButton"; configuration.title = "保存"; ObjectID = "wqC-Mc-1CV"; */
+"wqC-Mc-1CV.configuration.title" = "保存";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wqC-Mc-1CV"; */
+"wqC-Mc-1CV.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "戻る"; ObjectID = "yaa-JF-w5o"; */
+"yaa-JF-w5o.configuration.title" = "戻る";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yaa-JF-w5o"; */
+"yaa-JF-w5o.normalTitle" = "Button";

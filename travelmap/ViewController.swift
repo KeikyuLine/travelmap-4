@@ -20,7 +20,7 @@ class ViewController: UIViewController, UISearchBarDelegate {
     var testManager:CLLocationManager = CLLocationManager()
     
     private var testSerchBar: UISearchBar!
-    @IBOutlet weak var testSearchBar: UISearchBar!
+//    @IBOutlet weak var testSearchBar: UISearchBar!
     var locationMnager: CLLocationManager!
     @IBOutlet weak var testMapView: MKMapView!
     
@@ -258,5 +258,4 @@ extension ViewController: CLLocationManagerDelegate, MKMapViewDelegate {
         }
     }
 }
-
 

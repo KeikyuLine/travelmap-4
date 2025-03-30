@@ -20,7 +20,6 @@ final class VacationModel {
     var longitude: Double
     var createdAt: Date
     
-    
     init(id: String, vacationName: String, memo:String, timeRequired: Double, stayMin: Double, websiteURL: String, createdAt: Date, latitude: Double, longitude: Double) {
         self.id = id
         self.vacationName = vacationName

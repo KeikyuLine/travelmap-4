@@ -66,7 +66,14 @@ class AddViewController: UIViewController {
     }
     
     private func savedVacation() {
-        SwiftDataService.shared.saveVacation(vacationName: searchedPlace, memo: textView.text, timeRequired: self.min, stayMin: self.stayMin, websiteURL: self.webURL, createdAt: Date(), latitude: self.searchedLatitude, longitude: self.searchedLongitude)
+        SwiftDataService.shared.saveVacation(vacationName: searchedPlace,
+                                             memo: textView.text,
+                                             timeRequired: self.min,
+                                             stayMin: self.stayMin,
+                                             websiteURL: self.webURL,
+                                             createdAt: Date(),
+                                             latitude: self.searchedLatitude,
+                                             longitude: self.searchedLongitude)
     }
     
     @IBAction func minButton(_ sender: Any) {

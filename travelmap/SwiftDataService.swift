@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftData
+
 class SwiftDataService {
     static let shared = SwiftDataService()
     var container: ModelContainer?
@@ -25,7 +26,15 @@ class SwiftDataService {
     
     func saveVacation(vacationName: String,memo: String, timeRequired: Double, stayMin: Double, websiteURL: String, createdAt: Date, latitude: Double, longitude: Double){
         if let context {
-            let savedVacation = VacationModel(id: UUID().uuidString, vacationName: vacationName, memo: memo, timeRequired: timeRequired, stayMin: stayMin, websiteURL: websiteURL, createdAt: createdAt, latitude: latitude, longitude: longitude)
+            let savedVacation = VacationModel(id: UUID().uuidString,
+                                              vacationName: vacationName,
+                                              memo: memo,
+                                              timeRequired: timeRequired,
+                                              stayMin: stayMin,
+                                              websiteURL: websiteURL,
+                                              createdAt: createdAt,
+                                              latitude: latitude,
+                                              longitude: longitude)
             context.insert(savedVacation)
         }
     }
